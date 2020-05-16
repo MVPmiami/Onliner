@@ -4,11 +4,43 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
+    margin-top: 0;
 }
 
 header{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header ul:first-of-type{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+header ul:last-of-type{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
     justify-content: start;
     align-items: center;
+    width: 25%;
+}
+header ul:last-of-type li:first-of-type{
+    margin-right: 5%;
+}
+
+header span{
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
 }
