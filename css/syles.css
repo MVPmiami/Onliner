@@ -130,3 +130,8 @@ header span{
     top: 0px;
     left: -4px;
 }
+
+.logo-search-login{
+    display: flex;
+    flex-flow: row;
+}
