@@ -17,7 +17,6 @@ header{
     width: 100%;
     background-color: #f4f4f4;
 }
-
 header ul:first-of-type{
     display: flex;
     flex-flow: row wrap;
@@ -41,6 +40,14 @@ header ul:first-of-type{
     height: 16px;
     margin-right: -35px;
 }
+.machine{
+    background-image: url(../icons/machine.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: -25px;
+}
 header ul:last-of-type{
     display: flex;
     flex-flow: row wrap;
@@ -55,7 +62,6 @@ header ul:last-of-type li:first-of-type{
     margin-right: 5%;
     color: red;
 }
-
 header span{
     font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
