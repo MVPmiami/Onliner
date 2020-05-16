@@ -99,3 +99,27 @@ header span{
     top: 0px;
     left: -4px;
 }
+.before-machine{
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 34px;
+    left: 524px;
+    color: white;
+    background-color: #7dbf26;
+    padding: 4px 12px 6px;
+    border-radius: 14px;
+}
+.before-machine::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../icons/before_machine.png);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+}
