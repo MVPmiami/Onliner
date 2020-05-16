@@ -5,3 +5,10 @@ html, body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
 }
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+}
