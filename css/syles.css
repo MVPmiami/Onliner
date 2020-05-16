@@ -11,6 +11,13 @@ html, body{
 
 header{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+header nav{
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -122,4 +129,9 @@ header span{
     position: absolute;
     top: 0px;
     left: -4px;
+}
+
+.logo-search-login{
+    display: flex;
+    flex-flow: row;
 }
