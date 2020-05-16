@@ -1,0 +1,7 @@
+html, body{
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 62.5%;
+}
