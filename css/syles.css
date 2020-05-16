@@ -4,8 +4,10 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
-    margin-top: 0;
+    margin: 0;
 }
+
+/****************************HEADER**************************/
 
 header{
     display: flex;
@@ -13,6 +15,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #f4f4f4;
 }
 
 header ul:first-of-type{
@@ -20,10 +23,15 @@ header ul:first-of-type{
     flex-flow: row wrap;
     font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     list-style: none;
     justify-content: space-between;
     align-items: center;
     width: 40%;
+    background-color: #ffdd22;
+    height: 47px;
+    margin: 0;
+    padding: 0 20px 0 20px;
 }
 
 header ul:last-of-type{
@@ -38,9 +46,12 @@ header ul:last-of-type{
 }
 header ul:last-of-type li:first-of-type{
     margin-right: 5%;
+    color: red;
 }
 
 header span{
     font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
+    background-color: #e7e7e7;
+    opacity: .5;
 }
