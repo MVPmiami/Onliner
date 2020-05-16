@@ -33,7 +33,14 @@ header ul:first-of-type{
     margin: 0;
     padding: 0 20px 0 20px;
 }
-
+.dominos{
+    background-image: url(../icons/dominos.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: -35px;
+}
 header ul:last-of-type{
     display: flex;
     flex-flow: row wrap;
