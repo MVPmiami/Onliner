@@ -130,8 +130,18 @@ header span{
     top: 0px;
     left: -4px;
 }
-
 .logo-search-login{
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70.56%;
+    margin: 25px auto;
+}
+.logo{
+    background-image: url(../icons/logo.png);
+    width: 180px;
+    height: 40px;
+    background-size: 180px 40px;
+    margin-left: 280px;
 }
