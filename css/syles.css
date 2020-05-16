@@ -38,7 +38,7 @@ header ul:first-of-type{
     background-repeat: no-repeat;
     width: 16px;
     height: 16px;
-    margin-right: -35px;
+    margin-right: -30px;
 }
 .machine{
     background-image: url(../icons/machine.png);
@@ -47,6 +47,12 @@ header ul:first-of-type{
     width: 16px;
     height: 16px;
     margin-right: -25px;
+}
+.weather{
+    background-image: url(../icons/weather.png);
+    background-position: 31px 0px;
+    width: 33px;
+    height: 30px;
 }
 header ul:last-of-type{
     display: flex;
