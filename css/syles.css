@@ -5,7 +5,7 @@ html, body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
     margin: 0;
-    background-color: #fbfbfb;
+    background-color: #f7f7f7;
 }
 
 /****************************HEADER**************************/
@@ -18,7 +18,7 @@ header{
     width: 100%;
 }
 .grey-back{
-    background-color: #f4f4f4;
+    background-color: #dfdfdf;
     height: 44px;
     width: 100%;
     position: relative;
@@ -29,7 +29,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     width: 70.56%;
-    background-color: #f4f4f4;
+    background-color: #dfdfdf;
     height: 44px;
 }
 header ul:first-of-type{
@@ -177,6 +177,7 @@ header span{
     background-position: 12px;
     font-family: 'Open Sans', sans-serif;
     color: #333;
+    background-color: #ffffff;
 }
 .login{
     width: 19%;
@@ -367,13 +368,18 @@ header span{
 /*****************************MAIN*******************************/
 main{
     width: 70.56%;
+    height: 50px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     overflow-x: scroll;
+    border-top: 1px solid #d8d8d8;
+    background-color: #fbfbfb;
+    padding: 10px 0 10px 20px;
 }
 .samsung{
     cursor: pointer;
@@ -383,6 +389,10 @@ main{
     background-image: url(../icons/samsung.png);
     background-size: 105px 16px;
     background-repeat: no-repeat;
+}
+.smartphones{
+    border-right: 1px solid #d8d8d8;
+    padding-right: 10px;
 }
 main ul{
     display: flex;
