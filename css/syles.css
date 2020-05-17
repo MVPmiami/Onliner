@@ -17,13 +17,20 @@ header{
     align-items: center;
     width: 100%;
 }
+.grey-back{
+    background-color: #f4f4f4;
+    height: 44px;
+    width: 100%;
+    position: relative;
+}
 header nav{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 70.56%;
     background-color: #f4f4f4;
+    height: 44px;
 }
 header ul:first-of-type{
     display: flex;
@@ -34,7 +41,7 @@ header ul:first-of-type{
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 54%;
     background-color: #ffdd22;
     height: 44px;
     margin: 0;
@@ -72,6 +79,8 @@ header ul:last-of-type{
     align-items: center;
     width: 25%;
     margin: 0;
+    position: relative;
+    left: -50PX;
 }
 .course{
     margin-right: 5%;
@@ -82,14 +91,16 @@ header span{
     font-family: 'Open Sans', sans-serif;
     background-color: #e7e7e7;
     opacity: .5;
+    position: relative;
+    right: -130px;
 }
 .before-dominos{
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    position: absolute;
-    top: 34px;
-    left: 317px;
+    position: relative;
+    top: 28px;
+    left: -90%;
     color: white;
     background-color: #e31837;
     padding: 4px 12px 6px;
@@ -111,9 +122,9 @@ header span{
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    position: absolute;
-    top: 34px;
-    left: 524px;
+    position: relative;
+    top: -8px;
+    left: 233px;
     color: white;
     background-color: #7dbf26;
     padding: 4px 12px 6px;
@@ -133,7 +144,7 @@ header span{
 }
 .logo-search-login{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     width: 70.56%;
@@ -141,17 +152,17 @@ header span{
 }
 .logo{
     background-image: url(../icons/logo.png);
+    background-repeat: no-repeat;
     width: 180px;
-    height: 40px;
-    background-size: 180px 40px;
+    height: 43px;
+    background-size: 100%;
 }
 .logo-search-login form{
     padding-left: 24px;
-    width: 33%;
-    margin-left: -126px;
-    width: 591px;
+    width: 45%;
+    margin-left: -10%;
     position: relative;
-    left: 200px;
+    left: 6%;
 }
 .logo-search-login form input{
     border: solid 1px #ccc;
@@ -168,13 +179,13 @@ header span{
     color: #333;
 }
 .login{
-    width: 246px;
-    padding-left: 20px;
+    width: 19%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 350px;
+    position: relative;
+    right: -121px;
 }
 .enter{
     padding: 11px 44px 12px 44px;
@@ -227,4 +238,68 @@ header span{
     background-position: center;
     border: 1px solid #ccc;
 }
-
+@media(max-width:1152px){
+    header ul:last-of-type{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        position: absolute;
+    }
+}
+@media(min-width:1375px){
+    header nav{
+        width: 1375px;
+        margin: 0 auto;
+    }
+    header .logo-search-login{
+        width: 1375px;
+    }
+}
+@media(max-width:1375px){
+   .logo-search-login{
+       width: 100%;
+   }
+   .login{
+       width: 260px;
+       position: absolute;
+       right: 44px;
+   }
+   .logo-search-login form{
+       width: 34%;
+       position: relative;
+       left: -88px;
+   }
+   .logo-search-login form input{
+       width: 100%;
+   }
+   header nav ul:first-of-type{
+       min-width: 782.5px;
+   }
+   header nav{
+       width: 100%;
+       justify-content: flex-start;
+       flex-flow: nowrap;
+   }
+   header nav ul:last-of-type{
+       position: relative;
+       left: -20px;
+   }
+   header span{
+       position: absolute;
+       right: 0px;
+   }
+   .before-dominos{
+    position: absolute;
+    top: 35px;
+    left: 41px;
+    width: 78.8px;
+   }
+   .before-machine{
+    position: absolute;
+    top: 35px;
+    left: 249px;
+    width: 78.8px;
+   }
+}
+@media(max-width:1000px){
+}
