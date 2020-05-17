@@ -365,3 +365,19 @@ header span{
     }
 }
 /*****************************MAIN*******************************/
+main{
+    width: 70.56%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.samsung{
+    width: 185px;
+    height: 16px;
+    background-image: url(../icons/samsung.png);
+    background-size: 105px 16px;
+    background-repeat: no-repeat;
+}
