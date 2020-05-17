@@ -255,6 +255,9 @@ header span{
     header .logo-search-login{
         width: 1375px;
     }
+    main .navigation-for-main{
+        min-width: 1351px;
+    }
 }
 @media(max-width:1375px){
    .logo-search-login{
@@ -300,6 +303,9 @@ header span{
     top: 35px;
     left: 249px;
     width: 78.8px;
+   }
+   main .navigation-for-main{
+       min-width: 1371px;
    }
 }
 @media(max-width:1000px){
@@ -350,6 +356,7 @@ header span{
     }
     .logo-search-login form input{
            border: none;
+           background-color: #dfdfdf;
     }
     .basket{
         position: absolute;
@@ -364,9 +371,14 @@ header span{
         position: absolute;
         top: 0px;
     }
+     body main .navigation-for-main{
+        border-top: 1px solid #969696;
+        position: relative;
+        top: -70px
+    }
 }
 /*****************************MAIN*******************************/
-main{
+main .navigation-for-main{
     width: 70.56%;
     height: 50px;
     margin: 0 auto;
@@ -395,6 +407,7 @@ main{
     padding-right: 10px;
 }
 main ul{
+    cursor: pointer;
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
