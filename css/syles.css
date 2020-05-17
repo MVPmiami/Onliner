@@ -5,7 +5,7 @@ html, body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
     margin: 0;
-    background-color: #fbfbfb;
+    background-color: #f7f7f7;
 }
 
 /****************************HEADER**************************/
@@ -18,7 +18,7 @@ header{
     width: 100%;
 }
 .grey-back{
-    background-color: #f4f4f4;
+    background-color: #dfdfdf;
     height: 44px;
     width: 100%;
     position: relative;
@@ -29,7 +29,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     width: 70.56%;
-    background-color: #f4f4f4;
+    background-color: #dfdfdf;
     height: 44px;
 }
 header ul:first-of-type{
@@ -177,6 +177,7 @@ header span{
     background-position: 12px;
     font-family: 'Open Sans', sans-serif;
     color: #333;
+    background-color: #ffffff;
 }
 .login{
     width: 19%;
@@ -254,6 +255,9 @@ header span{
     header .logo-search-login{
         width: 1375px;
     }
+    main .navigation-for-main{
+        min-width: 1351px;
+    }
 }
 @media(max-width:1375px){
    .logo-search-login{
@@ -299,6 +303,9 @@ header span{
     top: 35px;
     left: 249px;
     width: 78.8px;
+   }
+   main .navigation-for-main{
+       min-width: 1371px;
    }
 }
 @media(max-width:1000px){
@@ -349,6 +356,7 @@ header span{
     }
     .logo-search-login form input{
            border: none;
+           background-color: #dfdfdf;
     }
     .basket{
         position: absolute;
@@ -363,5 +371,73 @@ header span{
         position: absolute;
         top: 0px;
     }
+     body main .navigation-for-main{
+        border-top: 1px solid #969696;
+        position: relative;
+        top: -70px
+    }
 }
 /*****************************MAIN*******************************/
+main .navigation-for-main{
+    width: 70.56%;
+    height: 50px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow-x: scroll;
+    border-top: 1px solid #d8d8d8;
+    background-color: #fbfbfb;
+    padding: 10px 0 10px 20px;
+}
+.samsung{
+    cursor: pointer;
+    min-width: 106px;
+    padding-right: 10px;
+    height: 16px;
+    background-image: url(../icons/samsung.png);
+    background-size: 105px 16px;
+    background-repeat: no-repeat;
+}
+.smartphones{
+    border-right: 1px solid #d8d8d8;
+    padding-right: 10px;
+}
+main ul{
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+main ul li{
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 10px;
+    color: #004d99;
+}
+main ul li:nth-child(1){
+    width: 150px;
+}
+main ul li:nth-child(4){
+    width: 132px;
+}
+main ul li:nth-child(6){
+    width: 192px;
+}
+main ul li:nth-child(7){
+    width: 153px;
+}
+main ul li:nth-child(8){
+    width: 120px;
+}
+main ul li:nth-child(10){
+    width: 228px;
+}
