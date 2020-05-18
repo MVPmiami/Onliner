@@ -459,16 +459,17 @@ main .main-content{
     align-items: flex-start;
 }
 .element-1{
-    min-width:370px;
-    height: 151px;
+    min-width:366px;
+    height: 150px;
     background-image: url(../images/element-1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -65px;
+    background-position: 1px -65px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 1px;
 }
 .box-top{
     width: 90%;
@@ -537,4 +538,57 @@ main .main-content{
     padding: 4px 5px 3px 5px;
     border-radius: 3px;
     margin-left: 5px;
-}   
+}
+
+.element-2{
+    margin-left: 1px;
+    min-width:365px;
+    height: 150px;
+    background-image: url(../images/element-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -33px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-2 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    margin: 19% -1% 0% -3%;
+}
+
+.element-3{
+    margin-left: 1px;
+    min-width:365px;
+    height: 150px;
+    background-image: url(../images/element-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -156px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-3 h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+    top: -20px;
+    left: -64px;
+}
+.element-3 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: -61px;
+    left: -106px;
+}
+
