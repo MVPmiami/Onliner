@@ -694,3 +694,47 @@ main .main-content{
     top: 65px;
     left:-1px;
 }
+
+.element-8{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-8 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 65px;
+    left:-1px;
+}
+
+.element-9{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-9 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 39px;
+    left:-24px;
+}
