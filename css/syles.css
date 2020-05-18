@@ -460,8 +460,8 @@ main .main-content{
     align-items: flex-start;
 }
 .element-1{
-    min-width:362px;
-    max-width: 362px;
+    min-width:361px;
+    max-width: 361px;
     height: 150px;
     background-image: url(../images/element-1.jpeg);
     background-repeat: no-repeat;
@@ -550,7 +550,7 @@ main .main-content{
     background-image: url(../images/element-2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -33px;
+    background-position: 0px -31px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
@@ -651,13 +651,13 @@ main .main-content{
 }
 
 .element-6{
-    min-width:362px;
-    max-width: 362px;
+    min-width:363px;
+    max-width: 364px;
     height: 150px;
     background-image: url(../images/element-6.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 1px -37px;
+    background-position: 2px -37px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
@@ -727,13 +727,13 @@ main .main-content{
 }
 
 .element-9{
-    min-width:362px;
-    max-width: 362px;
+    min-width:363px;
+    max-width: 364px;
     height: 150px;
     background-image: url(../images/element-9.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 1px -12px;
+    background-position: 2px -12px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
@@ -803,13 +803,13 @@ main .main-content{
 }
 
 .element-12{
-    min-width:362px;
-    max-width: 362px;
+    min-width:363px;
+    max-width: 364px;
     height: 150px;
     background-image: url(../images/element-12.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 1px -12px;
+    background-position: 2px -12px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
@@ -822,5 +822,17 @@ main .main-content{
     color: white;
     position: relative;
     top: 50px;
-    left:19px;
+    left:-3px;
+}
+
+.right-section{
+    width: 285px;
+    height: 604px;
+    background-image: url(../images/right-section.jpg);
+    background-repeat: no-repeat;
+    background-size: 109%;
+    background-position: -13px 0px;
+    position: absolute;
+    top:229px;
+    right: 272px;
 }
