@@ -592,3 +592,105 @@ main .main-content{
     left: -106px;
 }
 
+.row-2{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.element-4{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -65px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-4 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 18px;
+    left: 2px;
+}
+
+.element-5{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -65px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-5 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: -18px;
+    left: 2px;
+}
+
+.element-6{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -37px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-6 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 65px;
+    left:-53px;
+}
+
+.row-3{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.element-7{
+    min-width:366px;
+    height: 150px;
+    background-image: url(../images/element-7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-7 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 65px;
+    left:-1px;
+}
