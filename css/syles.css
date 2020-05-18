@@ -1,6 +1,7 @@
 html, body{
     width: 100%;
     overflow: hidden;
+    overflow-y: auto;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 62.5%;
@@ -459,7 +460,8 @@ main .main-content{
     align-items: flex-start;
 }
 .element-1{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-1.jpeg);
     background-repeat: no-repeat;
@@ -542,7 +544,8 @@ main .main-content{
 
 .element-2{
     margin-left: 1px;
-    min-width:365px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-2.jpeg);
     background-repeat: no-repeat;
@@ -563,7 +566,8 @@ main .main-content{
 
 .element-3{
     margin-left: 1px;
-    min-width:365px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-3.jpeg);
     background-repeat: no-repeat;
@@ -601,7 +605,8 @@ main .main-content{
 }
 
 .element-4{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-4.jpeg);
     background-repeat: no-repeat;
@@ -623,7 +628,8 @@ main .main-content{
 }
 
 .element-5{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-5.jpeg);
     background-repeat: no-repeat;
@@ -645,7 +651,8 @@ main .main-content{
 }
 
 .element-6{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-6.jpeg);
     background-repeat: no-repeat;
@@ -674,7 +681,8 @@ main .main-content{
     align-items: flex-start;
 }
 .element-7{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-7.jpeg);
     background-repeat: no-repeat;
@@ -696,7 +704,8 @@ main .main-content{
 }
 
 .element-8{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-8.jpeg);
     background-repeat: no-repeat;
@@ -718,7 +727,8 @@ main .main-content{
 }
 
 .element-9{
-    min-width:366px;
+    min-width:362px;
+    max-width: 362px;
     height: 150px;
     background-image: url(../images/element-9.jpeg);
     background-repeat: no-repeat;
@@ -737,4 +747,80 @@ main .main-content{
     position: relative;
     top: 39px;
     left:-24px;
+}
+
+.row-4{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.element-10{
+    min-width:362px;
+    max-width: 362px;
+    height: 150px;
+    background-image: url(../images/element-10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-10 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 39px;
+    left:19px;
+}
+
+.element-11{
+    min-width:362px;
+    max-width: 362px;
+    height: 150px;
+    background-image: url(../images/element-11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-11 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 50px;
+    left:19px;
+}
+
+.element-12{
+    min-width:362px;
+    max-width: 362px;
+    height: 150px;
+    background-image: url(../images/element-12.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px -12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.element-12 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 50px;
+    left:19px;
 }
