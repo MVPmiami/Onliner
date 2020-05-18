@@ -377,7 +377,7 @@ header span{
         top: -70px
     }
 }
-/*****************************MAIN*******************************/
+/*****************************MAIN-NAVIGATION*******************************/
 main .navigation-for-main{
     width: 70.56%;
     height: 50px;
@@ -441,3 +441,100 @@ main ul li:nth-child(8){
 main ul li:nth-child(10){
     width: 228px;
 }
+
+/*********************MAIN-CONTENT*************************/
+main .main-content{
+    width: 71.56%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.row-1{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.element-1{
+    min-width:370px;
+    height: 151px;
+    background-image: url(../images/element-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -65px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box-top{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .9rem;
+    padding-top: 10px;
+}
+.auto{
+    background-color:#ffea00;
+    color: black;
+    padding: 2px 10px 2px 10px;
+}
+.comments{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3px;
+    width: 24px;
+    height: 16px;
+    background-color: black;
+    color: #ffea00;
+    border-radius: 4px;
+    border: 1px solid #ffea00;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.element-1 h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    margin: 10% 15% 0% -3%;
+}
+.button-2{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5% 82% 0% 9%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 22px;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    background-image: url(../icons/sprites-buttons.png);
+    background-repeat: no-repeat;
+    background-position: 9px 7px;
+}
+.upd{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    background-color: #e6e6e6;
+    padding: 4px 5px 3px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}   
