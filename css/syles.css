@@ -1039,3 +1039,22 @@ main .main-content{
     left: -69px;
     top: 32px;
 }
+.element-15{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    background-image: url(../images/element-15.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 2px;
+}
+.element-15 h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    left: -26px;
+    top: 32px;
+}
