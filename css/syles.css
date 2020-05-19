@@ -308,6 +308,7 @@ main ul li:nth-child(10){
 /*********************MAIN-CONTENT*************************/
 main .main-content{
     width: 71.56%;
+    height: 1207px;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
@@ -699,6 +700,53 @@ main .main-content{
     right: -1090px;
 }
 
+/********************PEOPLE_SLIDE**************************/
+
+.people-slide{
+    width: 71.56%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 832px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.people-slide h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.5rem;
+}
+
+.people-icon{
+    width: 50px;
+    height: 50px;
+    background-image: url(../icons/sprites-buttons.png);
+    background-repeat: no-repeat;
+    background-position: 19px -132px;
+}
+.info-covid{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color:#e31837;
+    color: white;
+    padding: 2px 12px 2px 12px;
+    border-radius: 10px;
+}
+.info-covid::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../icons/before_dominos.png);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    display: block;
+    position: absolute;
+    top:16px;
+    left: 138px;
+}
+
 @media(max-width:1152px){
     header ul:last-of-type{
         width: 0px;
@@ -720,6 +768,9 @@ main .main-content{
     }
     .main-content{
         min-width: 1375px;
+    }
+    .people-slide{
+        
     }
 }
 @media(max-width:1375px){
@@ -884,11 +935,19 @@ main .main-content{
         flex-flow: column wrap;
         width: 50%;
         align-items: center;
+        position: relative;
+        top:-84px;
      }
      .row-4{
         flex-flow: column wrap;
         width: 50%;
         align-items: center;
+        position: relative;
+        top:-84px;
+     }
+     .people-slide{
+        position: relative;
+        top:-170px;
      }
 }
 @media(max-width:728px){
@@ -896,71 +955,39 @@ main .main-content{
         flex-flow: column wrap;
         align-items: center;
         justify-content: center;
+        min-width:363px;
+        max-width: 364px;
     }
     .row-1{
         min-width:363px;
         max-width: 364px;
+        position: relative;
+        top: -154px;
     }
     .row-2{
         min-width:363px;
         max-width: 364px;
+        position: relative;
+        top: -154px;
     }
     .row-3{
         min-width:363px;
         max-width: 364px;
+        position: relative;
+        top: 777px;
+        left: -363px;
     }
     .row-4{
         min-width:363px;
         max-width: 364px;
+        position: relative;
+        top: 777px;
+        left: -363px;
+    }
+    .people-slide{
+        position: relative;
+        top: 777px;
+        left: -415px;
     }
 
-}
-
-
-/********************PEOPLE_SLIDE**************************/
-
-.people-slide{
-    width: 71.56%;
-    height: 50px;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row nowrap;
-    position: relative;
-    top: -604px;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.people-slide h2{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3.5rem;
-}
-
-.people-icon{
-    width: 50px;
-    height: 50px;
-    background-image: url(../icons/sprites-buttons.png);
-    background-repeat: no-repeat;
-    background-position: 19px -132px;
-}
-.info-covid{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 600;
-    background-color:#e31837;
-    color: white;
-    padding: 2px 12px 2px 12px;
-    border-radius: 10px;
-}
-.info-covid::before{
-    content: "";
-    width: 13px;
-    height: 13px;
-    background-image: url(../icons/before_dominos.png);
-    background-repeat: no-repeat;
-    background-size: 13px 13px;
-    display: block;
-    position: absolute;
-    top:16px;
-    left: 138px;
 }
