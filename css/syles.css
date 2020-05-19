@@ -991,3 +991,32 @@ main .main-content{
     }
 
 }
+
+.addon-people-slide{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -445px;
+}
+.element-13{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    background-image: url(../images/element-13.jpeg);
+    background-repeat: no-repeat;
+}
+.element-13 h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    left: -13px;
+    top: 10px;
+}
