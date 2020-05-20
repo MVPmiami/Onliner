@@ -707,8 +707,8 @@ main .main-content{
     height: 50px;
     display: flex;
     flex-flow: row nowrap;
-    position: absolute;
-    top: 832px;
+    position: relative;
+    top: -604px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -755,7 +755,7 @@ main .main-content{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: -550px;
+    top: -604px;
 }
 .element-13{
     display: flex;
@@ -851,10 +851,16 @@ main .main-content{
     left: -4px;
     top: 22px;
 }
-/************************FOOTER******************************/
+/********************FOOTER*******************************/
+footer{
+    position: relative;
+    left: -3px;
+    margin-right: -3px;
+    margin-top: 10px;
+}
 .main-info {
-    width: 71.56%;
-    margin: 0 auto;
+    max-width: 1373px;
+    margin: 0 13% 0 14%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -946,7 +952,12 @@ main .main-content{
     font-size: 1.3rem;
     color: #6b737f;
 }
-
+main{
+    max-height: 916px;
+}
+main .main-content{
+    max-height: 753px;
+}
 @media(max-width:1152px){
     header ul:last-of-type{
         width: 0px;
